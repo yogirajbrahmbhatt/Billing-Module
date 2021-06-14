@@ -102,6 +102,11 @@ The **Date** and **Time** fields will get the deafult set value.
 10. On clicking the **RESET ALL** button, all the entered data will be reset.
 11. One can access the database named "*store*" for all data related queries and operations, which is there inside the database folder.
 
+### Stock Checking Module:
+1. This module is for checking the current stock availability of any item, as well as to retrieve all the information of any particular item from database.
+2. for checking the stock, one firstly need to EITHER select the **Item ID** OR to select the one by selecting proper **Item Category** and **Item Name**.(If one has selected both, then make sure it points to the same item i.e both is for a same product)
+3. On clicking **CHECK NOW** button, it will retrieve the present stock of that entered item and display it. 
+
 
 
 ## "Bonus Point"
