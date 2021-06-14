@@ -74,7 +74,7 @@ py -m pip install fpdf
 ## Standard operating Procedure
 ### Billing Module:
 1. After successfull installation of the mentioned softwares and all other dependencies, one can simply run the python file (with extension _.py_). An interactive user interface will show up on successful initiation.
-2. The user need to enter a unique and appropriate **Invoice Number**. For instance, let the entered value is "101", then after filling all the details, when the "_**GENERATE BILL**_" button will be clicked; the invoice number will get modified as "_currentdate/101_". So, it'll be the final value of Invoice Number. 
+2. The user need to enter a unique and appropriate **Invoice Number**. IT IS MANDATORY TO ENTER APPROPRIATE INVOICE NUMBER EVERYTIME. For instance, let the entered value is "101", then after filling all the details, when the "_**GENERATE BILL**_" button will be clicked; the invoice number will get modified as "_currentdate/101_". So, it'll be the final value of Invoice Number. 
 The **Date** and **Time** fields will get the deafult set value.
 3. Then one need to enter the values for **Customer Name**, **Customer Contact**.
 4. After that, one needs to select the **Item Category**. Only after selecting the apt category, the **Item Name** will get displayed into its corresponding dropdown.
