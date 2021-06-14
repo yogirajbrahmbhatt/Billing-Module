@@ -1,10 +1,12 @@
-# Billing Module (SToRE +)
-## _The easy-to-operate billing module_
-- Enter some basic informations and details of Customer
-- Select the desrired product(s) from available dropdowns
+# SToRE + 
+## _The easy-to-operate Billing and Stock Management Software_
+- Easy billing procedure
 - Perform the operations such as Add, Remove, Apply Discount etc.
 - Generate the bill and Get all the entered data safely stored in a Database
 - Get the PDF generated on-the-click of bill generation 
+- Add the Inward Stock to the database
+- Check the existing stock of any Item in one click
+- Check all the details of any Item in one click
 
 ## Features
 
@@ -12,6 +14,8 @@
 - Easy to operate cart-related operations
 - Get the entire Input data saved on-a-single-click
 - Get the PDF generated for the prepared bill
+- Easy Stock Inward module
+- Requires no any experience to use
 - And some more, to be embedded later on...
 
 ## Tech
@@ -26,6 +30,18 @@ This Billing Module uses following tools, technologies and open-source project/p
 - Several Python packages like - sqlite3, os, datetime for effective and fruitful working
 
 And of course, with lots of coding and logic of working
+
+## Future Updates
+
+There are several updations on which the work is been carried out, such as:
+
+- Making more optimized software
+- Designing a similiar Web App
+- Admin-Employee architecture for full fledged working
+- Sending Bill and some other notifications on SMS/E-mail
+- Updating the existing functionalities
+
+Beside this, There is the scope of much more endeavours to befitted in.
 
 ## Installation
 
@@ -47,16 +63,16 @@ pip install db-sqlite3
 py -m pip install db-sqlite3
 ```
 
-
 installing FPDF 
 ```sh
 pip install fpdf
 #or you can also use
 py -m pip install fpdf
 ```
-(All the above mentioned commands are presented here with respect to the Command Prompt/ Powershell of Windows operating system. they might differ for Terminal of Linux or any other operating system)
+(All the above mentioned commands are presented here with respect to the Command Prompt/ Powershell of Windows operating system. they might differ for Terminal of Linux or any other operating system.)
 
 ## Standard operating Procedure
+### Billing Module:
 1. After successfull installation of the mentioned softwares and all other dependencies, one can simply run the python file (with extension _.py_). An interactive user interface will show up on successful initiation.
 2. The user need to enter a unique and appropriate **Invoice Number**. For instance, let the entered value is "101", then after filling all the details, when the "_**GENERATE BILL**_" button will be clicked; the invoice number will get modified as "_currentdate/101_". So, it'll be the final value of Invoice Number. 
 The **Date** and **Time** fields will get the deafult set value.
@@ -70,6 +86,10 @@ The **Date** and **Time** fields will get the deafult set value.
 9. When the **TOTAL** button will get clicked, it will show the total amount to pay for all items, as well as the discount given and based on these, it will finally give the Total Payable Price for entire purchase.
 10. On clicking the **Generate Bill** button, all the entered data will get stored into the Database, and at the same time a PDF will get generated that will be viewing on screen to get printed.
 11. One can access the database named "*store*" for all data related queries and operations, which is there inside the database folder.
+
+### Stock Registry Module:
+1. abbaba
+2. 
 
 
 
