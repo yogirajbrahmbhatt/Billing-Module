@@ -83,14 +83,24 @@ The **Date** and **Time** fields will get the deafult set value.
 6. After taking all the desired items into the Cart, the user also needs to mention whether any Discount is given or not, by selecting the available allowance from dropdown field of **Discount Percent**. 
 7. Then one needs to mention the **Remarks**, if there are any. Along with this, one needs to select the applicable Terms and Condition on the entire purchase, by selecting the one from **T&C** dropdown.
 (If "*other*" is selected from the **T&C** dropdown then it is mandatory to mention the proper justification in **Remarks** field)
-8. Lastly, the one himself/herself have to mention his/her name, who is the user of this module and entered every date to issue the Bill Invoice in the **Issued By** field.
+8. Lastly, the one himself/herself have to mention his/her name, who is the user of this module and entered every data to issue the Bill Invoice in the **Issued By** field.
 9. When the **TOTAL** button will get clicked, it will show the total amount to pay for all items, as well as the discount given and based on these, it will finally give the Total Payable Price for entire purchase.
 10. On clicking the **Generate Bill** button, all the entered data will get stored into the Database, and at the same time a PDF will get generated that will be viewing on screen to get printed.
 11. One can access the database named "*store*" for all data related queries and operations, which is there inside the database folder.
 
 ### Stock Registry Module:
 1. This module is for registering the Inward Stock and to enter it's details in a database.
-2. 
+2. The user need to enter a unique and appropriate **Invoice Number**. IT IS MANDATORY TO ENTER APPROPRIATE INVOICE NUMBER EVERYTIME. For instance, let the entered value is "101", then after filling all the details, when the "_**ADD TO DATABASE**_" button will be clicked; the invoice number will get modified as "_currentdate/101_". So, it'll be the final value of Invoice Number. 
+The **Date** and **Time** fields will get the deafult set value.
+3. Then one need to enter the values for **Supplier Name**, **Supplier Contact**.
+4. After that, one needs to enter the unique **Item ID** for the product, as well as need to select the **Item Category**; or can also mention **Custom Item Category**, by leaving the **Item Category Selection dropdown** *empty*. After entering the apt category, one will need to enter **Item Name**. This entire step is *mandatory* to perform.
+5. It is also required to mention the **Quantity** of the entered item. And then needs to mention clearly about the Price of a sinle unit/item/article in **Price of 1** Input box. Followed by this, one needs to enter the **Total payed amount** that was paid for the entire entry.
+6. Then one needs to write down the **Remarks**, if there are any. Along with this, one needs to mention the applicable Terms and Condition on the entire input entry, by typing the one in **T&C** dropdown.
+7. Lastly, the one himself/herself have to mention his/her name, who is the user of this module and entered every data in the **Issued By** field.
+8. After this, one can also fill the details regarding **Courier Service Name**, **Courier Service Contact** and **Courier Service Reference bill No.**
+9. After successfully entering all the inputs, when the **ADD TO DATABASE** button will get clicked, it will store it into *"raw_inventory"* table of *store.db* database.
+10. On clicking the **RESET ALL** button, all the entered data will be reset.
+11. One can access the database named "*store*" for all data related queries and operations, which is there inside the database folder.
 
 
 
