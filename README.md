@@ -89,7 +89,7 @@ The **Date** and **Time** fields will get the deafult set value.
 11. One can access the database named "*store*" for all data related queries and operations, which is there inside the database folder.
 
 ### Stock Registry Module:
-1. abbaba
+1. This module is for registering the Inward Stock and to enter it's details in a database.
 2. 
 
 
