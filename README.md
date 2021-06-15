@@ -106,7 +106,9 @@ The **Date** and **Time** fields will get the deafult set value.
 1. This module is for checking the current stock availability of any item, as well as to retrieve all the information of any particular item from database.
 2. for checking the stock, one firstly need to EITHER select the **Item ID** OR to select the one by selecting proper **Item Category** and **Item Name**.(If one has selected both, then make sure it points to the same item i.e both is for a same product)
 3. On clicking **CHECK NOW** button, it will retrieve the present stock of that entered item and display it. 
-
+4. Another function available here is the Information retreival of desired product. For that one firstly need to EITHER select the **Item ID** OR to select the one by selecting proper **Item Category** and **Item Name**.(If one has selected both, then make sure it points to the same item i.e both is for a same product)
+5. On clicking **CHECK NOW** button, it will retrieve all the information available in the database; of that entered item and display it. 
+6. **CLEAR OUTPUT** button present in both the function is for clearing out the output.
 
 
 ## "Bonus Point"
